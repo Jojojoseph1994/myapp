@@ -1,0 +1,19 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /* background-image: url('../images/download.jpeg'); */
+  /* color: wheat; */
+  width: 100%;
+}
+.container{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+
+a {
+  color: #00B7FF;
+}

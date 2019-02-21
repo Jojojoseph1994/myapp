@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>
+            <%= title %>
+        </title>
+        <link rel="stylesheet" href="/stylesheets/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <form action="/register" method="POST">
+                <table>
+                    <thead>
+                        <h1><%= title %></h1>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>name</td>
+                            <td><input type="text" name="name" placeholder="name" required /></td>
+                        </tr>
+                        <tr>
+                            <td>address</td>
+                            <td><input type="textarea" name="address" placeholder="address" style="height:50px;widows: 50px;" required /></td>
+                        </tr>
+                        <tr>
+                            <td>age</td>
+                            <td><input type="number" name="age" placeholder="age" required/></td>
+                        </tr>
+                        <tr>
+                            <td>email</td>
+                            <td><input type="email" name="email" placeholder="email" required/></td>
+                        </tr>
+                        <tr>
+                            <td> password</td>
+                            <td><input type="password" name="password" placeholder="password" required/></td>
+                        </tr>
+                        <tr>
+                            <td> password confirmation</td>
+                            <td><input type="password" name="confirmPassword" placeholder="password confirmation" required/></td>
+                        </tr>
+                        <tr>
+                            <td>sex</td>
+                            <td><input type="radio" name="sex" value="1" checked/>Male
+                                <input type="radio" name="sex" value="2"/>Female
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" name="submit" value="submit"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </body>
+
+</html>
